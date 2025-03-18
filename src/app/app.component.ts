@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
 import {HomeComponent} from './home/home.component';
 
 @Component({
@@ -12,11 +12,11 @@ import {HomeComponent} from './home/home.component';
       </header>
       <section class="content">
         <app-home></app-home>
-        </section>
+      </section>
     </main>
   `,
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Homes';
+  title = 'homes';
 }
